@@ -57,6 +57,25 @@ export function Hero() {
               <span className="font-medium">{badge}</span>
             </div>
           ))}
+          <div id="contact" className="mt-10 rounded-xl border p-5 bg-white/80">
+  
+  <h2 className="text-lg font-bold">
+    Booked Appointments
+  </h2>
+
+  <p className="text-sm text-gray-600">
+    Total Appointments: 5
+  </p>
+
+  <ul className="mt-3 space-y-1">
+    <li>Aarav - 09:30 AM</li>
+    <li>Meena - 10:15 AM</li>
+    <li>Ravi - 11:00 AM</li>
+    <li>Priya - 12:30 PM</li>
+    <li>Kiran - 02:00 PM</li>
+  </ul>
+
+</div>
         </div>
       </div>
     </section>
